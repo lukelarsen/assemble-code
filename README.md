@@ -109,3 +109,10 @@ $code-scroll-max-height: 200px;
 ```css
 $code-scrollable: true;
 ```
+Will give you:
+```css
+.code-scrollable{
+    max-height: $code-scroll-max-height;
+    overflow-y: scroll;
+}
+```
