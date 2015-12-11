@@ -1,6 +1,6 @@
 {
   "name": "assemble-code",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Code blocks for the Assemble CSS Framework.",
   "main": "assemble-code.css",
   "scripts": {
