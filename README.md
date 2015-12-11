@@ -1,11 +1,11 @@
 [Assemble]:                http://assemblecss.com
-[Assemble Core]:           https://github.com/lukelarsen/assemble-core
+[Assemble Base]:           https://github.com/lukelarsen/assemble-base
 
 # Assemble Code
 Assemble Code is a component of the [Assemble] CSS Framework. It will give you a solid base for displaying code in your project. It has some default styles that can easily be overridden so you can add your own look.
 
 ## Requirements
-Assemble Code requires [Assemble Core].
+Assemble Code requires [Assemble Base].
 
 ## Installation
 npm install assemble-code --save-dev
@@ -36,7 +36,7 @@ Use the code tag as you normally could.
 ```
 
 ## Options
-Options are set with variables. These variables are already set with their default values so they will just work out of the box. If you wish to change them just define the variable you want to change before you load the _assemble-code.css file. You may wish you see [Assemble Core] for more examples and directions for setting up a Assemble project.
+Options are set with variables. These variables are already set with their default values so they will just work out of the box. If you wish to change them just define the variable you want to change before you load the _assemble-code.css file. You may wish you see [Assemble Base] for more examples and directions for setting up a Assemble project.
 
 ### Design Variables
 
