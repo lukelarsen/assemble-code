@@ -19,7 +19,7 @@ Import the _assemble-code.css file from your css file.
 Override variables here before the Assemble Components are loaded.
 */
 
-@import '../node_modules/assemble-buttons/assemble-code';
+@import '../node_modules/assemble-code/assemble-code';
 ```
 Use the code tag as you normally could.
 ```html
