@@ -11,22 +11,15 @@ Assemble Code requires [Assemble Base].
 npm install assemble-code --save-dev
 
 ## Usage
-### Gulp
-```js
-var gulp = require('gulp');
-var postcss = require('gulp-postcss');
-var assembleBase = require('assemble-base');
-var assembleCode = require('assemble-code');
+Import the _assemble-code.css file from your css file.
+```css
+@import '../node_modules/assemble-base/base';
 
-gulp.task('css', function () {
-    var processors = [
-        assembleBase,
-        assembleCode
-    ];
-    return gulp.src('./src/*.css')
-        .pipe(postcss(processors))
-        .pipe(gulp.dest('./dest'));
-});
+/*
+Override variables here before the Assemble Components are loaded.
+*/
+
+@import '../node_modules/assemble-buttons/assemble-code';
 ```
 Use the code tag as you normally could.
 ```html
